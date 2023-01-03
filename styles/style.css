@@ -8,18 +8,59 @@
 :root {
     --fontMyriad: 'myriadPRO';
     --fontAlternative: 'arial';
+    --fontColor: white;
+    --corMenuApple: #333333;
+
 }
 
 * {
     margin: 0px;
     padding: 0px;
     font-family: var(--fontMyriad);
+    color: var(--fontColor);
+
 }
 
-html,
-body {
+html {
+
     height: 100vh;
     width: 100vw;
     background-color: black;
+}
+
+body {
     background-image: url(/img/sunset-mountains-silhouette-5k-1280x800-47.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+main {
+    position: relative;
+    height: 120vh;
+
+}
+
+footer {
+    height: 7vh;
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+section#phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    height: 627px;
+    width: 311px;
+    background-image: url(/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
 }
