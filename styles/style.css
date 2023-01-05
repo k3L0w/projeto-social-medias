@@ -72,3 +72,26 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+
+/*posiciona social-medias a direita, na tela
+*/
+section#social-medias {
+    text-align: left;
+}
+
+section#social-medias>a>img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 25%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box;
+}
+
+section#social-medias img:hover {
+    border: 2px solid white;
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 5px rgba(43, 6, 6, 0.459);
+    transition: transform 2s, border 1s;
+}
