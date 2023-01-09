@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/fonts/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontMyriad: 'myriadPRO';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fontMyriad);
+}
+
+img {
+    width: 100vw;
+}
+
+/*pseudo-elemento scrollbar --> define configurações da barra de rolagmm*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 17px;
+    width: auto;
+}
+
+a:hover {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 17px;
+}
